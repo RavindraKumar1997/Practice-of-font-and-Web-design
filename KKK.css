@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    margin: 5;
+    margin: 0px;
     padding: 10px;
     overflow: hidden;
     background-color: #67c530;
@@ -8,15 +8,49 @@ ul {
     top: 0;
     width: 100%;
 }
-li {
-    float: left;
-}
 li a {
     display: block;
+    float: left;
     color: rgb(212, 23, 23);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+a.wname {
+    font-size:30px;
+    padding: 0px 0px;  
+}
+div.cw {
+    padding:20px;
+    margin-ton:30px;
+    background-color:#1abc9c;
+    height: 1500px;
+}
+h1.aw {
+    font-size:39px;
+}
+div.au {
+    width: 300px;
+}
+img.up {
+    width: 90px;
+    height: 90px;
+    border-radius:50px;
+    float: left;
+}
+h2.un {
+    margin-top: 0px;
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+div.fp {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+div.sp {
+    margin-left: 150px;
+    padding-right: 150px;
 }
 li a:hover:not(.active) {
     background-color: #111111;
@@ -27,11 +61,11 @@ li a:hover:not(.active) {
 .button {
     background-color: #04AA6D;/* Green */
     border: none;
-    padding:15px 32px;
+    padding:15px 10px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 10px;
     cursor: pointer;
 }
