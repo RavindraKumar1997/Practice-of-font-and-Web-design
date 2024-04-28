@@ -35,14 +35,14 @@ div.au {
 img.up {
     width: 90px;
     height: 90px;
-    border-radius:50px;
+    border-radius:90px;
     float: left;
+    margin-right: 30px;
 }
 h2.un {
     margin-top: 0px;
-    padding-left: 120px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    Line-height: 100px;
+
 }
 div.fp {
     margin-left: 150px;
@@ -66,6 +66,23 @@ li a:hover:not(.active) {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 10px;
+    margin: 4px 80px;
     cursor: pointer;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
