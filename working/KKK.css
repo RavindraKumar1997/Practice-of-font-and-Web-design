@@ -74,19 +74,29 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    height: 90px;
 }
-div.gallery:hover {
-    border: 1px solid #777;
-}
-div.gallery img {
-    width: 100%;
-    height: auto;
+div.gallery img{
+    width: 150;
+    height:70;
 }
 div.desc {
     padding: 15px;
     text-align: center;
 }
 div.TP {
+    margin-left: 160px;
+    padding-right: 160px;
+}
+div.FP {
+    margin-left: 150px;
+    padding-right: 150px;
+}
+div.FP {
+    margin-left: 150px;
+    padding-right: 150px;
+}
+div.SP {
     margin-left: 150px;
     padding-right: 150px;
 }
