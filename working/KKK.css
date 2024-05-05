@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -22,16 +23,17 @@ a.wname {
     font-size:30px;
     padding: 0px 0px;  
 }
+body {
+    background-color: #1abc9c;
+}
 
 div.cw {
     padding:20px;
     margin-top:30px;
-    background-color:#1abc9c;
-    
 }
 
 h1.aw {
-    font-size:39px;
+        font-size:39px;
 }
 
 div.au {
@@ -49,23 +51,13 @@ img.up {
 h2.un {
     margin-top: 0px;
     Line-height: 100px;
-
 }
 
-div.fp {
+div.dp {
     margin-left: 150px;
     margin-right: 150px;
+    
 }
-
-div.sp {
-    margin-left: 150px;
-    padding-right: 150px;
-}
-
-li a:hover:not(.active) {
-    background-color: #111111;
-}
-
 .active {
     background-color: #000000;
 }
@@ -82,17 +74,20 @@ li a:hover:not(.active) {
     cursor: pointer;
 }
 
+div.cg{
+    display: flex;
+    justify-content: center;
+}
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
     width: 180px;
     height: 90px;
 }
 
 div.gallery img{
-    width: 150;
-    height:70;
+    width: 150px;
+    height:70px;
 }
 
 div.desc {
@@ -100,27 +95,14 @@ div.desc {
     text-align: center;
 }
 
-div.TP {
-    margin-left: 160px;
-    padding-right: 160px;
+.meetingimage {
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
-div.FP {
-    margin-left: 150px;
-    padding-right: 150px;
-}
-
-div.FP {
-    margin-left: 150px;
-    padding-right: 150px;
-}
-
-div.SP {
-    margin-left: 150px;
-    padding-right: 150px;
-}
-
-.meeting image {
-    padding-left: 500px;
-    padding-right: 500px;
+.Freelance {
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;    
 }
