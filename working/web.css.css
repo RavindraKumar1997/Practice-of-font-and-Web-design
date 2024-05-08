@@ -127,6 +127,18 @@ div.ic {
     margin-right: 500px;    
 }
 
+div.svggallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 50px;
+}
+
+div.gallery img{
+    width: 100px;
+    height:30px;
+}
+
 div.ct {
     display: flex;
     justify-content: center;
