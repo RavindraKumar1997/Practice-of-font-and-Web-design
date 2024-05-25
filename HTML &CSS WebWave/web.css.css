@@ -12,7 +12,7 @@ ul.Header {
 li a {
     display: block;
     float: left;
-    color: rgb(212, 23, 23);
+    color: rgb(241, 44, 18);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -136,15 +136,25 @@ img.svggallery{
     margin: 5px;
     width: 35px;
     height: 35px;
+    color: white;
 }
 
 ul {
     list-style-type: none;
 }
 
+
 .container {
     background-color: #000000;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #0b4f9c;
+}
+a:hover {
+    text-decoration: underline;
 }
