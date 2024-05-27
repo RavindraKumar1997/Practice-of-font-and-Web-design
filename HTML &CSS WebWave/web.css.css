@@ -3,7 +3,7 @@ ul.Header {
     margin: 0px;
     padding: 10px;
     overflow: hidden;
-    background-color: #67c530;
+    background-color: #fff;
     position: fixed;
     top: 0;
     width: 100%;
@@ -65,7 +65,7 @@ div.dp {
     background-color: #000000;
 }
 
-.button {
+div.TB {
     background-color: #04AA6D;/* Green */
     border: none;
     padding:15px 10px;
@@ -75,6 +75,10 @@ div.dp {
     font-size: 16px;
     margin: 4px 80px;
     cursor: pointer;
+}
+.TB:hover {
+    background-color:#04AA6D;
+    color: #1abc9c;
 }
 
 div.cg {
@@ -131,18 +135,9 @@ div.ai {
     margin-right: 500px;    
 }
 
-
-img.svggallery{
-    margin: 5px;
-    width: 35px;
-    height: 35px;
-    color: white;
-}
-
 ul {
     list-style-type: none;
 }
-
 
 .container {
     background-color: #000000;
@@ -151,9 +146,19 @@ ul {
     justify-content: space-between;
 }
 
+div.MI li{
+    margin-left: -19%;
+    text-decoration: none;
+    color: #a0a8ba;
+}
+
+div.MI li:hover {
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
-    color: #0b4f9c;
+    color: #006bad;
 }
 a:hover {
     text-decoration: underline;
