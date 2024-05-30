@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 ul.Header {
     list-style-type: none;
     margin: 0px;
@@ -14,8 +18,12 @@ li a {
     float: left;
     color: rgb(241, 44, 18);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 60px;
     text-decoration: none;
+}
+
+li a:hover{
+    color: #00c65e;
 }
 
 a.wname {
@@ -35,10 +43,12 @@ div.cw {
 }
 
 h1.aw {
+    margin-top: 40px;
     font-size:70px;
 }
 
 div.au {
+    margin-left: 25px;
     width: 300px;
 }
 
@@ -56,29 +66,40 @@ h2.un {
 }
 
 div.dp {
+    margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
     
 }
+p {
+    font-family: verdana;
+    font-size: 16px;
+}
 
 .active {
-    background-color: #000000;
+    border-radius: 8px;
+    margin-right: 70px;
+    background-color: #00c65e;
 }
 
 div.TB {
     background-color: #04AA6D;/* Green */
     border: none;
-    padding:15px 10px;
-    text-align: left;
+    border-radius: 8px;
+    padding: 18px 60px;
+    text-align: right;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 80px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-right: 120px;
+    margin-left: 180px;
     cursor: pointer;
 }
 .TB:hover {
     background-color:#04AA6D;
-    color: #1abc9c;
+    color: #fff;
 }
 
 div.cg {
@@ -87,15 +108,16 @@ div.cg {
 }
 
 div.gallery {
+    border-radius: 6px;
     margin: 5px;
     border: 1px solid #ccc;
-    width: 180px;
+    width: 150px;
     height: 90px;
 }
 
 div.gallery img{
     width: 150px;
-    height:70px;
+    height:90px;
 }
 
 div.desc {
@@ -107,6 +129,9 @@ div.desc {
     border: 1px solid black;
     margin-left: 500px;
     margin-right: 500px;
+    width: 268px;
+    height: 145px;
+    border-radius: 3px;
 }
 
 div.fq {
@@ -132,7 +157,10 @@ div.ai {
 .Freelance {
     border: 1px solid black;
     margin-left: 500px;
-    margin-right: 500px;    
+    margin-right: 500px;
+    width: 228px;
+    height: 214px; 
+    border-radius: 3px;   
 }
 
 ul {
