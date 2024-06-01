@@ -16,18 +16,20 @@ ul.Header {
 li a {
     display: block;
     float: left;
-    color: rgb(241, 44, 18);
+    color: rgb(70, 70, 70);
     text-align: center;
     padding: 14px 60px;
     text-decoration: none;
 }
 
 li a:hover{
+    text-decoration: none;
     color: #00c65e;
 }
 
 a.wname {
-    font-size:30px;
+    margin-left: 25px;
+    font-size: 35px;
     padding: 0px 0px;  
 }
 
@@ -43,13 +45,14 @@ div.cw {
 }
 
 h1.aw {
+    margin-left: 9vw;
     margin-top: 40px;
     font-size:70px;
 }
 
 div.au {
-    margin-left: 25px;
-    width: 300px;
+    margin-left: 11vw;
+    width: 30%;
 }
 
 img.up {
@@ -58,11 +61,16 @@ img.up {
     border-radius:90px;
     float: left;
     margin-right: 30px;
+    margin-left: 5%;
 }
 
 h2.un {
+    margin-left: 11vw;
     margin-top: 0px;
     Line-height: 100px;
+}
+#rose {
+    margin-left: 11vw;
 }
 
 div.dp {
@@ -71,30 +79,43 @@ div.dp {
     margin-right: 150px;
     
 }
+h2 {
+    font-size: 35px;
+}
 p {
     font-family: verdana;
+    color: #6f6f6f;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .active {
+    padding: 16px 30px;
     border-radius: 8px;
     margin-right: 70px;
     background-color: #00c65e;
 }
 
-div.TB {
+button.TB {
     background-color: #04AA6D;/* Green */
     border: none;
-    border-radius: 8px;
-    padding: 18px 60px;
-    text-align: right;
-    text-decoration: none;
+    width: 22vw;
+    border-radius: 0.5vw;
+    padding: 1% 0.6% 1% 2%;
+    margin-left: 25vw;
+    margin-top: 4vw;
     display: inline-block;
     font-size: 16px;
-    margin-top: 40px;
-    margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 180px;
+    cursor: pointer;
+}
+button.TBC {
+    background-color: #c7eee0;/* Green */
+    border: none;
+    width: 22vw;
+    border-radius: 0.5vw;
+    padding: 1% 0.6% 1% 2%;
+    display: inline-block;
+    font-size: 16px;
     cursor: pointer;
 }
 .TB:hover {
@@ -121,12 +142,14 @@ div.gallery img{
 }
 
 div.desc {
+    margin-right: 15vw;
     padding: 15px;
     text-align: center;
 }
 
 .meetingimage {
     border: 1px solid black;
+    margin-top: 20px;
     margin-left: 500px;
     margin-right: 500px;
     width: 268px;
@@ -156,6 +179,7 @@ div.ai {
 
 .Freelance {
     border: 1px solid black;
+    margin-top: 25px;
     margin-left: 500px;
     margin-right: 500px;
     width: 228px;
@@ -173,9 +197,17 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+div.itemitem-1{
+    margin-right: -35px;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+}
 
 div.MI li{
-    margin-left: -19%;
+    margin-right: -17%;
     text-decoration: none;
     color: #a0a8ba;
 }
@@ -191,3 +223,5 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
