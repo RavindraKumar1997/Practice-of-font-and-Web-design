@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-ul.Header {
+ul.h {
     list-style-type: none;
     margin: 0px;
     padding: 10px;
@@ -14,12 +14,17 @@ ul.Header {
 }
 
 li a {
-    display: block;
+    display: block ;
     float: left;
     color: rgb(70, 70, 70);
     text-align: center;
     padding: 14px 60px;
     text-decoration: none;
+}
+li.hi a{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 20px 5px 120px;
 }
 
 li a:hover{
@@ -27,9 +32,9 @@ li a:hover{
     color: #00c65e;
 }
 
-a.wname {
+a.wn {
     margin-left: 25px;
-    font-size: 35px;
+    font-size: 30px;
     padding: 0px 0px;  
 }
 
@@ -115,6 +120,7 @@ button.TBC {
     width: 22vw;
     border-radius: 0.5vw;
     padding: 1% 0.6% 1% 2%;
+    margin-left: 2vw;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
@@ -126,6 +132,7 @@ button.TBC {
 
 div.cg {
     display: flex;
+    line-break: unset;
     justify-content: center;
 }
 
@@ -133,16 +140,17 @@ div.gallery {
     border-radius: 6px;
     margin: 5px;
     border: 1px solid #ccc;
-    width: 150px;
+    width: 300px;
     height: 90px;
 }
 
 div.gallery img{
-    width: 150px;
+    width: 300px;
     height:90px;
 }
 
 div.desc {
+    font-size: 1vw;
     margin-right: 15vw;
     padding: 15px;
     text-align: center;
