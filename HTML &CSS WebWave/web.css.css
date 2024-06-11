@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div.navdiv{
+    background: #fff;
+    font-family: arial sans-serif;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.logo a{
+    text-decoration: none;
+    font-size: 4vw;
+    font-weight: 8vw;
+    margin-left: 2vw;
+    color:  #00c65e;
+}
+div.ch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+    width: 45vw;
+    margin-top: 1.5vw;
+}
+.box:hover{
+    text-decoration: none;
+    color: #00c65e;
+}
+div.box{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.log a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1.5vw;
+    color: #000000;
+    font-weight: bold;
+}
+.log a:hover{
+    text-decoration: none;
+    color: #00c65e;
+}
+div.log button{
+    background-color: #00c65e;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    width: 11vw;
+}
+div.log button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.log button:hover{
+    text-decoration: none;
+    background-color: green;
+}
+
+div.oa {
+    font-family: arial,sans-serif;
+    background-color: #1abc9c;
+    background-image: linear-gradient(to
+    bottom right,#1abc9c,#fff);
+}
+
+div.cw {
+    padding:20px;
+    margin-top:30px;
+}
+
+h1.aw {
+    margin-left: 6vw;
+    margin-top: 1vw;
+    margin-right: 11;
+    font-size: 72px;
+}
+
+div.au {
+    margin-left: 6vw;
+    margin-bottom: 2vw;
+    width: 30vw;
+}
+
+img.up {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 7vw;
+    float: left;
+    margin-right: 2vw;
+    margin-left: 5%;
+}
+
+h2.un {
+    float: right;
+    margin-left: 10vw;
+    margin-top: -7vw;
+    font-size: 2vw;
+    Line-height: 5vw;
+    text-transform: uppercase;
+}
+#rose {
+    margin-left: 8vw;
+}
+
+div.dp {
+    margin-top: 5vw;
+    margin-left: 11vw;
+    margin-right: 20vw;
+    margin-bottom: 5vw;
+    
+}
+div.dp h2,.sdp h2{
+    margin-bottom: 2vw;
+    font-size: 3vw;
+}
+
+p {
+    font-family: verdana;
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button.tb {
+    background-color: #04AA6D;/* Green */
+    border: none;
+    width: 22vw;
+    border-radius: 0.5vw;
+    padding: 1% 0.6% 1% 2%;
+    margin-left: 25vw;
+    margin-top: 4vw;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+button.tbc {
+    background-color: #c7eee0;/* Green */
+    border: none;
+    width: 22vw;
+    border-radius: 0.5vw;
+    padding: 1% 0.6% 1% 2%;
+    margin-left: 2vw;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.tb:hover {
+    background-color:#04AA6D;
+    color: #fff;
+}
+
+div.cg {
+    display: flex;
+    width: 80vw;
+    margin-left: 10vw;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+div.gallery {
+    border-radius: 6px;
+    margin: 0.5vw;
+    border: 1px solid #ccc;
+    width: 18vw;
+    height: 12vw;
+}
+
+div.gallery img{
+    width: 18vw;
+    height: 10vw;
+}
+
+div.desc {
+    text-align: center;
+}
+div.db{
+    text-align: left;
+}
+
+img.mi{
+    border: 1px solid black;
+    margin-top: 2vw;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    width: 25vw;
+    height: 20vw;
+    border-radius: 3px;
+}
+
+div.fq {
+    font-size: 5vw;
+    padding-left: 19vw;
+    float: left;
+}
+
+div.sdp {
+    margin-left: 35vw;
+    margin-right: 20vw;
+}
+
+div.ic {
+    text-align: center;
+    font-size: 90px;
+}
+
+div.ai {
+    width: 33%;
+    height: 45%;
+}
+
+img.fl{
+    border: 1px solid black;
+    margin-top: 2vw;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    width: 25vw;
+    height: 20vw; 
+    border-radius: 3px;   
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+div.itemitem-1{
+    margin-right: -35px;
+}
+
+svg{
+    width: 3vw;
+    height: 3vw;
+}
+
+div.mi li{
+    margin-right: -17%;
+    text-decoration: none;
+    color: #a0a8ba;
+}
+
+div.mi li:hover {
+    text-decoration: underline;
+}
+ 
+a {
+    text-decoration: none;
+    color: #006bad;
+} 
+ a:hover {
+    text-decoration: underline;
+} 
